@@ -295,3 +295,9 @@ Check 036-Interactivetest5.py for solution
 
 #Solution
 #Check 037-finalproject.py to see solution
+
+038 - Congratulations
+You have finished day 3
+How do you feel
+Great huh
+See you tomorrow
