@@ -1,0 +1,179 @@
+#Welcome to day 4
+Day 4 - Randomisation and Python Lists
+
+039 - Today's Goals
+Focusing on Randomisation and python lists
+At the end of the day we should be make a rock paper scissors game
+
+040 - Random Module
+Randomisation - making computer programs choose random stuff
+The Random module is used to generate pseudo-random numbers for various probabilistic distributions
+
+randint(a,b) - returns a random integer between a and b (both inclusive)
+
+
+#In order to use the random module you must import it
+import random
+
+To generate random whole numbers
+random_integer = random.randint(1,10)
+print(random_integer)
+    output - random number between 1 and 10 like 8
+
+To generate random floating point numbers
+random_float = random.random()
+print(random_float)
+    output - random float between 0.0 and 0.1
+
+The love score project but we are using the random module to randomly generate the score
+love_score = random.randint(1,100)
+print(f"Your love score is {love_score}")
+
+041 - Interactive Assignment 1
+You are going to write a virtual coin toss program.
+It will randomly tell the user "Heads" or "Tails".
+
+Important, the first letter should be capitalised and spelt exactly like in the example e.g
+Heads,not heads.
+
+You should generate a random number, either 0 or 1. then use that number to print output
+Heads or Tails
+
+e.g
+1 means Heads
+0 means Tails
+
+#Solution
+Check 041-interactivetest.py for solution
+
+042 - Understanding the Offset and Appending Items to Lists
+
+Lists - A list is a data structure,it is a way of organizing and storing data in python
+A set of square brackets with items inside
+can contain all data types
+
+list = [item1, item2]
+fruits = ["Cherry", "Apple" , "Pear"]
+
+Pulling things out of the list
+                         0            1             2          3        4
+states_of_america = ["Delaware","Pennsylvania","New York","Milwakee","Ohio"]
+Lists have an order
+each item continues the order
+
+print(states_of_america[1])
+ output - Pennsylvania
+
+Python starts counting from 0 so Pennsylvania will be 1
+
+state = states_of_america[-1]
+print(state)
+    output - Ohio
+
+if we do it using negative index or offset python will start counting from behind
+
+                        -5           -4            -3         -2       -1
+states_of_america = ["Delaware","Pennsylvania","New York","Milwakee","Ohio"]
+
+Editing the list
+
+states_of_america[1] = "Pencilvania"
+this changes the data kept in the offset 1
+
+Adding to the list
+To add to the end of the list(Appending)
+We use the append function
+
+states_of_america.append("Cliffordville")
+This will add Cliffordville to the end of the list
+
+extending the list
+To extend the list by adding a list of new data to the old list
+states_of_america.extend(["Your Land","Our Land","Ultraville"])
+print(states_of_america)
+
+Inset to the list
+Insert an item to a given position by using the insert(a,b) function
+insert(0,"Washington DC")
+will put Washington DC at the beginning of the list
+
+043 - Interactive Assignment 2
+#Banker Roulette - Who will pay the bill
+You are going to write a program which will select a random name from a list of names.
+The person selected will have to pay for everybody's food bill
+
+#Do not change the code below
+import random
+
+#Split string method
+names_string = input("Give me everybody's names,seperated by a comma. ")
+names = names_string.split(",")
+#Do not change the code above
+
+#Write your code below
+
+
+#The split() function helps convert data types into a list by using on identifier like (,)
+
+#Hint you might need the help of the random.choice() functionn
+
+#Solution
+Check 043-interactivetest2.py
+
+044 - IndexErrors and Working with Nexted Lists
+
+Index Errors - An IndexError in Python occurs when you try to access an index that is
+outside the range of valid indices for a list, tuple, or another sequence
+
+my_list = [1, 2, 3]
+print(my_list[5])  # IndexError: list index out of range
+
+Nested Lists
+A nested list in Python is a list that contains other lists as its elements.
+
+fruits = ["Strawberries","Nectarines","Apples","Grapes","Peaches","Cherries","Pears"]
+vegetables = ["Spinach","Kale","Tomatoes","Celery","Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+    output - [["Strawberries","Nectarines","Apples","Grapes","Peaches","Cherries","Pears"],[Spinach","Kale","Tomatoes","Celery","Potatoes]]
+
+045 - Interactive Assignment 3
+You are going to write a program which will mark a spot with an X
+
+The map is made of 3 rows of blank squares
+    1    2   3
+1 ['◻️','◻️','◻️']
+
+2 ['◻️','◻️','◻️']
+
+3 ['◻️','◻️','◻️']
+
+Your program should allow you to enter the position of the treasure using a two-digit system.
+The first digit is the horizontal column number and the second digit is the vertical row number.
+
+
+#Don't change the code below
+row1=["◻️","◻️","◻️"]
+row2=["◻️","◻️","◻️"]
+row3=["◻️","◻️","◻️"]
+map = [row1,row2,row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure?")
+#Don't change the code above
+
+#Write your code below
+
+
+#Don't change the code below
+print(f"{row1}\n{row2}\n{row3}")
+
+046 - Day 4 Project
+Create a program that allows a user to play rock paper scissors with the computer
+the user inputs their choice and depending on that choice the user either wins loses or draws
+
+#Check 046-rockpaperscissors.py for the solution
+
+047 - Congratulatins
+You have made it to the end of day 4
+How do you feel
