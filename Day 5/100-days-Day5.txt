@@ -1,0 +1,33 @@
+Day 5 - For Loops, Range and Code Blocks
+
+048 - Day 5 Goals
+At he end of the day we should be able to make a password generator
+
+049 - For Loop
+
+Loops
+A loop is something that is supposed to happen over and over again
+
+For Loop
+A for loop is a control flow statement used in programming to repeatedly execute a block of code for a specific number of iterations or while traversing a collection
+
+for item in list_of_items:
+    #Do something for each item
+
+fruits = ["Apple","Peach","Pear" ]
+for fruit in fruits:
+    print(fruit)
+    print(fruit + " Pie")
+
+output - Apple
+         Apple Pie
+         Peach
+         Peach Pie
+         Pear
+         Pear Pie
+
+What the code is doing is taking this list of fruits and it's assigning a variable name to each of them
+So the first time this runs fruit = Apple
+The second time fruit = Peach
+The third time fruit = Pear
+

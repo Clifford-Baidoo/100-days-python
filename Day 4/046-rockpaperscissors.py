@@ -45,20 +45,23 @@ elif choice == 1 and komputa_choice == 1:
 elif choice == 2 and komputa_choice == 2:
     print(f"You chose : \n {scissors} \n Computer chose: \n {scissors}\nIt is a draw")
 
-if choice == 0 and komputa_choice == 1:
+elif choice == 0 and komputa_choice == 1:
     print(f"You chose : \n {rock} \n Computer chose : \n {paper}\n Computer wins")
 
-if choice == 0 and komputa_choice == 2:
+elif choice == 0 and komputa_choice == 2:
     print(f"You chose : \n {rock} \n Computer chose : \n {scissors}\n You win")
 
-if choice == 1 and komputa_choice == 2:
+elif choice == 1 and komputa_choice == 2:
     print(f"You chose : \n {paper} \n Computer chose : \n {scissors}\n Computer wins")
 
-if choice == 1 and komputa_choice == 0:
+elif choice == 1 and komputa_choice == 0:
     print(f"You chose : \n {paper} \n Computer chose : \n {rock}\n You win")
 
-if choice == 2 and komputa_choice == 0:
+elif choice == 2 and komputa_choice == 0:
     print(f"You chose : \n {scissors} \n Computer chose : \n {rock}\n Computer wins")
 
-if choice == 2 and komputa_choice == 1:
+elif choice == 2 and komputa_choice == 1:
     print(f"You chose : \n {scissors} \n Computer chose : \n {paper}\n You win")
+
+else:
+    print("Enter a valid number")
