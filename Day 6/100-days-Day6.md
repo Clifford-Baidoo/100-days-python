@@ -26,14 +26,16 @@ To do that we use def which means defining and giving it a function name and aft
 
 After defining your function it can't run on it own unless you call it by typing the name of the function and any input it requires
 
+```
 def my_function():
     #Do this
     #Then do this
     #Finally do this
-
 my_function() - To call the funtion
+```
 
-```def my_function():
+```
+def my_function():
     print("Hello")
     print("Bye")
 
