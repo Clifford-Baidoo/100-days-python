@@ -66,12 +66,14 @@ Indentation refers to the spaces or tabs placed at the beginning of a line of co
 Indentation is mostly done by 4 spaces or 1 tab
 Indentation in python is mandatory
 
+```
 def my_function():
 ....if sky == "clear":
 ........print("blue")
 ....elif sky == "cloudy":
 ........print("grey")
 ....print("Hello")
+```
 
 Count the dots to see how Identation works
 
@@ -88,10 +90,12 @@ if it is true it will do what you put under it until it becomes false
 Using the Hurdle 1 Challenge
 instead of using a for loop we are going to use a while loop to run the code
 
+```
 number_of_hurdles = 6
 while number_of_hurdles > 0:
     jump()
     number_of_hurdles -= 1
+```
 
 #Challenge
 Select hurdle 2 and check world info for the prompt and solve it
