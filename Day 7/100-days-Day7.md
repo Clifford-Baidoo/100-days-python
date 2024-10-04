@@ -20,7 +20,6 @@ Break it down into little steps
 
 You can use [draw.io](https://draw.io) to create your flowchart
 
-![Flow Chart](/home/mee_pmeep/Documents/Python_Yu_Project/Day 7/067 Solution-Hangman-Flowchart-1.png)
 
 Check the flow chart to see how we are going to make the game
 
