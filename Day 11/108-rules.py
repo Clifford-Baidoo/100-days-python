@@ -1,12 +1,3 @@
-## Day 11 - Capstone project
-
-### 107 - Day 11 Goals
-We are going to use all the python skills we have learned to build a blackjack game
-
-This will be a very difficult project
-
-### 108 - Program Requirements and Game Rules
-```
 ############### Blackjack Project #####################
 
 #Difficulty Normal 😎: Use all Hints below to complete the project.
@@ -16,8 +7,8 @@ This will be a very difficult project
 
 ############### Our Blackjack House Rules #####################
 
-## The deck is unlimited in size.
-## There are no jokers.
+## The deck is unlimited in size. 
+## There are no jokers. 
 ## The Jack/Queen/King all count as 10.
 ## The the Ace can count as 11 or 1.
 ## Use the following list as the deck of cards:
@@ -28,16 +19,16 @@ This will be a very difficult project
 
 ##################### Hints #####################
 
-#Hint 1: Go to this website and try out the Blackjack game:
+#Hint 1: Go to this website and try out the Blackjack game: 
 #   https://games.washingtonpost.com/games/blackjack/
-#Then try out the completed Blackjack project here:
+#Then try out the completed Blackjack project here: 
 #   https://appbrewery.github.io/python-day11-demo/
 
-#Hint 2: Read this breakdown of program requirements:
+#Hint 2: Read this breakdown of program requirements: 
 #   http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF
 #Then try to create your own flowchart for the program.
 
-#Hint 3: Download and read this flow chart I've created:
+#Hint 3: Download and read this flow chart I've created: 
 #   https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt
 
 #Hint 4: Create a deal_card() function that uses the List below to *return* a random card.
@@ -48,8 +39,8 @@ This will be a very difficult project
 #user_cards = []
 #computer_cards = []
 
-#Hint 6: Create a function called calculate_score() that takes a List of cards as input
-#and returns the score.
+#Hint 6: Create a function called calculate_score() that takes a List of cards as input 
+#and returns the score. 
 #Look up the sum() function to help you do this.
 
 #Hint 7: Inside calculate_score() check for a blackjack (a hand with only 2 cards: ace + 10) and return 0 instead of the actual score. 0 will represent a blackjack in our game.
@@ -66,10 +57,4 @@ This will be a very difficult project
 
 #Hint 13: Create a function called compare() and pass in the user_score and computer_score. If the computer and user both have the same score, then it's a draw. If the computer has a blackjack (0), then the user loses. If the user has a blackjack (0), then the user wins. If the user_score is over 21, then the user loses. If the computer_score is over 21, then the computer loses. If none of the above, then the player with the highest score wins.
 
-#Hint 14: Ask the user if they want to restart the game. If they answer yes, clear the console and
-```
-Use the hints and see if you can make your own game
-
-### 114 - Cogratulations
-You have completed day 11
-You can check all the individual hint solutions from 109 to 113 in the codes so check it out
+#Hint 14: Ask the user if they want to restart the game. If they answer yes, clear the console and 
