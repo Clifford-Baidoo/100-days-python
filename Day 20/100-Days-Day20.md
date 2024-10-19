@@ -184,7 +184,7 @@ We are basically going to make a snake class to tidy the code and put it in a fi
 #Solution
 Check 185-main.py and snake.py for solution
 
-### 186 - Contorl the Snake with a Keypress
+### 186 - Control the Snake with a Keypress
 We are going to get our code to listen to keypress for us to be able to control our snake
 
 ```python
