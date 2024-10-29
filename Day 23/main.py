@@ -6,6 +6,7 @@ from scoreboard import Scoreboard
 
 screen = Screen()
 screen.setup(width=600, height=600)
+screen.title("Cross the Road Turtle!!")
 screen.tracer(0)
 screen.listen()
 car_manager = CarManager()
