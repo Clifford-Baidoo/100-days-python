@@ -98,3 +98,67 @@ my_car = Car(make="Nissan", model="Skyline)
 print(my_car.model)
 ```
 
+### 250 - Buttons,Entry and Settings Component Options
+Check documenation for the explanation of the code
+
+```Python
+from tkinter import *
+
+window = Tk()
+window.title("My First UI Program")
+window.minsize(width=500,height=300)
+
+#Label
+my_label = Label(text="I Am a Label")
+my_label.pack()
+
+#To Change what is in the Label
+my_label["text"] = "New Text"
+my_label.config(text="New Text")
+
+#Event Listener
+def button_clicked():
+    print("I got clicked")
+
+#Button
+button = Button(text="Click me", command=button_clicked)
+button.pack()
+
+window.mainloop()
+```
+
+This code create the tkinter ui and a button has been introduced 
+It will do the command when clicked on
+Watch the code well
+
+#Challenge
+Show "Button Got Clicked on my_label when the button get's clicked
+
+The Entry class allows input from users
+
+``` Python
+#To allow input
+input = Entry(width=10)
+input.pack
+
+#To get input
+input.get()
+```
+
+CHallenge
+Figure how what is written in the box should be displayed in the label
+
+### 251 - Other Tkinter widgets
+check this [site](repl.it/@appbrewery/tkinter-widget-demo) for all the widget codes and explanation
+Code in 251-otherwidgets.py
+
+### 252 -  Tkinter Layout Managers
+In Tkinter, layout managers are used to arrange widgets (like buttons, labels, etc.) in a window. The three main layout managers in Tkinter are:
+
+    pack - shows items in a vertical or horizontal position
+    grid - shows data in a table position by using rows and columns
+    place - precise positioning by providing x and y value
+
+Each layout manager has different features and use cases.
+
+### 253 - Mile to Kilometers Converter Project
