@@ -162,3 +162,9 @@ In Tkinter, layout managers are used to arrange widgets (like buttons, labels, e
 Each layout manager has different features and use cases.
 
 ### 253 - Mile to Kilometers Converter Project
+Using what you learned in the last lesson create a mile to km converter 
+You can use this image as a guidline
+
+![image](miletokm.png)
+
+## CONGRATULATIONS YOU HAVE COMPLETED DAY 27
