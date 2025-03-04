@@ -155,3 +155,14 @@ bandname = city + " " + pet
 print(bandname)
 
 #5. Make sure the input cursor shows on a new line
+
+
+## Python Tutorials
+### The Print function
+THe print lalallalala
+- Print to work
+- Print to go
+
+``` Python
+print("Tutorial")
+```
