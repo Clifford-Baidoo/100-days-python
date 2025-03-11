@@ -1,4 +1,4 @@
-Day 2 - Data Types,Numbers,Operations,Type Conversion,f-strings
+Daay 2 - Data Types,Numbers,Operations,Type Conversion,f-strings
 
 017 -Todays Project
      After the day we will be able to build a "Tip Calculator Program"
