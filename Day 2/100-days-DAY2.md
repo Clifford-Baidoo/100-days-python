@@ -1,6 +1,3 @@
-Here's the raw Markdown code without the artifact formatting:
-
-```markdown
 # Day 2 - Data Types, Numbers, Operations, Type Conversion, f-strings
 
 ## 017 - Today's Project
@@ -243,4 +240,3 @@ You can do it.
 Keep going.
 Rest small.
 See you tomorrow lads.
-```
